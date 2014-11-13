@@ -2,6 +2,7 @@
 <html lang="en" ng-app="jigglyApp">
 
     <head>
+        <title>JigglyPeace - Home</title>
 
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,7 +20,6 @@
         <!-- Bootstrap Core JavaScript -->
         <script src="js/bootstrap.min.js"></script>
 
-        <title>Shop Homepage - Start Bootstrap Template</title>
 
         <!-- Bootstrap Core CSS -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -29,7 +29,10 @@
 
         <!-- Refrence to our js page !-->
         <script src="router.js"></script>
-                <script src="controllers/homeController.js"></script>
+
+        <script src="controllers/homeController.js"></script>
+        <script src="controllers/discussionController.js"></script>
+        <script src="controllers/postController.js"></script>
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -52,19 +55,19 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">Start Bootstrap</a>
+                    <a class="navbar-brand" href="#">JigglyPeace</a>
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
                         <li>
-                            <a href="#">About</a>
+                            <a href="#">Home</a>
                         </li>
                         <li>
-                            <a href="#">Services</a>
+                            <a href="#discussion">Discussion</a>
                         </li>
                         <li>
-                            <a href="#">Contact</a>
+                            <a href="#post">New Post</a>
                         </li>
                     </ul>
                 </div>
