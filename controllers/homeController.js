@@ -21,33 +21,33 @@
 	 $scope.discussions = [
 			{
 				title :'woho', description : 'I like Jigglipeace',	publisher: 'Eitan Bolbol Gadol',
- 				origin_lang:'he' ,number_of_views:50, width: '3',
+ 				origin_lang:'he' ,number_of_views:3, width: '3',
 				image_link:'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSMStbAt9oDDMHa2gXldmXHZUsagTS8YHavp09NxEP-jUIIku1gZQ',
-				sideA :'side a',sideB:'side b',sideACount:50,sideBCount:40,neutralCount:30
+				sideA :'side a',sideB:'side b',sideACount:6,sideBCount:4,neutralCount:4
 			},
 			{
 				title :'woho', description : 'I like Jigglipeace',	publisher: 'Eitan Bolbol Gadol',
- 				origin_lang:'he' ,number_of_views:50,width: '6',
+ 				origin_lang:'he' ,number_of_views:3,width: '6',
 				image_link:'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSMStbAt9oDDMHa2gXldmXHZUsagTS8YHavp09NxEP-jUIIku1gZQ',
-				sideA :'side a',sideB:'side b',sideACount:50,sideBCount:40,neutralCount:30
+				sideA :'side a',sideB:'side b',sideACount:6,sideBCount:4,neutralCount:4
 			},
 			{
 				title :'woho', description : 'I like Jigglipeace',	publisher: 'Eitan Bolbol Gadol',
- 				origin_lang:'he' ,number_of_views:50,width: '3',
+ 				origin_lang:'he' ,number_of_views:3,width: '3',
 				image_link:'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSMStbAt9oDDMHa2gXldmXHZUsagTS8YHavp09NxEP-jUIIku1gZQ',
-				sideA :'side a',sideB:'side b',sideACount:50,sideBCount:40,neutralCount:30
+				sideA :'side a',sideB:'side b',sideACount:6,sideBCount:4,neutralCount:4
 			},
 			{
 				title :'woho', description : 'I like Jigglipeace',	publisher: 'Eitan Bolbol Gadol',
- 				origin_lang:'he' ,number_of_views:50,width: '8',
+ 				origin_lang:'he' ,number_of_views:3,width: '8',
 				image_link:'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSMStbAt9oDDMHa2gXldmXHZUsagTS8YHavp09NxEP-jUIIku1gZQ',
-				sideA :'side a',sideB:'side b',sideACount:50,sideBCount:40,neutralCount:30
+				sideA :'side a',sideB:'side b',sideACount:6,sideBCount:4,neutralCount:4
 			},
 			{
 				title :'woho', description : 'I like Jigglipeace',	publisher: 'Eitan Bolbol Gadol',
- 				origin_lang:'he' ,number_of_views:50,width: '4',
+ 				origin_lang:'he' ,number_of_views:3,width: '4',
 				image_link:'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSMStbAt9oDDMHa2gXldmXHZUsagTS8YHavp09NxEP-jUIIku1gZQ',
-				sideA :'side a',sideB:'side b',sideACount:50,sideBCount:40,neutralCount:30
+				sideA :'side a',sideB:'side b',sideACount:6,sideBCount:4,neutralCount:4
 			},
 	 ];
 	});

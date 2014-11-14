@@ -4,25 +4,22 @@
             <div class="row">
                 <div ng-repeat="disc in discussions">
                     <div class="col-md-{{disc.width}}" >
-                        <div class="thumbnail">
-                            <!-- <img data-ng-src="{{disc.image_link}}" alt=""> -->
-                            <div class="caption">
+                        <div class="thumbnail" style="padding: 20px;">                            <!-- <img data-ng-src="{{disc.image_link}}" alt=""> -->
                                 <h4 class="pull-right">{{disc.sideACount*100.0/(disc.sideACount+disc.sideBCount)}}%</h4>
                                 <h4><a href="#">{{disc.title}}</a>
                                 </h4>
                                 <p>{{disc.description}}</p>
-                            </div>
-                            <div class="ratings">
-                                <p class="pull-right"></p>
-                                <p>
-                                    {{disc.publisher}}
-                                </p>
-                            </div>
+                                <div class="ratings">
+                                    <p class="pull-right"></p>
+                                    <p>
+                                        {{disc.publisher}}
+                                    </p>
+                                </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-     <button type="button">More discussions!</button> 
+     <button type="button" class="btn btn-default">More discussions!</button> 
 </div>
