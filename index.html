@@ -36,6 +36,7 @@
         <script src="controllers/homeController.js"></script>
         <script src="controllers/discussionController.js"></script>
         <script src="controllers/postController.js"></script>
+        <script src="controllers/loginController.js"></script>
         <script src="controllers/wysiwygeditorController.js"></script>
         
 
@@ -74,6 +75,17 @@
                         </li>
                         <li>
                             <a href="#post">New Post</a>
+                        </li>
+
+                        <li>
+                            <a><div ng-app="jigglyApp" ng-controller="loginController">
+                                   User Name:
+                                   <input type="text" ng-model="username">
+                                   Password:
+                                   <input type="text" ng-model="password">
+                                <input type="button" value="log in" ng-click="alert('g');"/>
+                                </div>
+                            </a>
                         </li>
                     </ul>
                 </div>
