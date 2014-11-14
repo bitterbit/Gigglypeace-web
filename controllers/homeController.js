@@ -15,12 +15,12 @@ angular.module('jigglyApp').controller('homeController', function($scope) {
 			{title :'Tel Aviv', firstComment : 'Everybody hates it.',	author: 'Gal Bolbol Katan'},
 		];
 
-		$http.get('/someurl').success
-		(function(data,status,headers,config) {
-			$scope.discussions=data;
-		}).error(function(data,status,headers,config) {
+		// $http.get('/someurl').success
+		// (function(data,status,headers,config) {
+		// 	$scope.discussions=data;
+		// }).error(function(data,status,headers,config) {
 
-		});
+		// });
 });
 
 

@@ -17,7 +17,11 @@ jigglyApp.config(function($routeProvider) {
 			controller  : 'discussionController'
 		})
 		.when('/post', {
-			templateUrl : 'templates/post.html',
-			controller  : 'postController'
+			templateUrl : 'templates/postOne.html',
+			controller  : 'postOneController'
+		})
+		.when('/post2/:url', {
+			templateUrl : 'templates/postTwo.html',
+			controller  : 'postTwoController'
 		})
 });
