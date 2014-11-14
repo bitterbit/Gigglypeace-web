@@ -115,6 +115,17 @@ optgroup,
 select,
 textarea {
   margin: 0;
+  color: white;
+    background-color: transparent;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    width: 100%;
+    height: 1px;
+    overflow: visible;
+    visibility: visible;
+    display: block
   font: inherit;
   color: inherit;
 }
