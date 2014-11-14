@@ -27,22 +27,22 @@ angular.module('jigglyApp').controller('discussionController', function($scope) 
 		{
 			title :'What the hell', 
 			description : 'Who russia thinks she is',	
-			publisher: 'Eitan Bolbol Gadol',
+			publisher: 'Eitan',
 			origin_lang:'he' ,
 			width: '8',
 		},
 		{
-			title :'woho', 
-			description : 'I like Jigglipeace',	
-			publisher: 'Eitan Bolbol Gadol',
-			origin_lang:'he' ,
+			title :'I wonder what is the real reason russia does this insane action', 
+			description : 'Probably fuel',	
+			publisher: 'Matan',
+			origin_lang:'en' ,
 			width: '6',
 		},
 		{
-			title :'woho', 
-			description : 'I like Jigglipeace',	
-			publisher: 'Eitan Bolbol Gadol',
-			origin_lang:'he' ,
+			title :'Any body thinks USA will make a presence there also?', 
+			description : 'I think the answer is ngative',	
+			publisher: 'Gilad',
+			origin_lang:'du' ,
 			width: '6',
 		}
 	];
