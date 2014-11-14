@@ -51,7 +51,7 @@
     <body ng-controller="homeController" style="background: #dddee6;">
 
         <!-- Navigation -->
-        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="background:#008040;">
             <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
@@ -61,22 +61,18 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">JigglyPeace</a>
+                    <a class="navbar-brand" href="#" style="color:white;">JigglyPeace</a>
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
                         <li>
-                            <a href="#">Home</a>
+                            <a href="#" style="color:white;">Home</a>
                         </li>
                         <li>
-                            <a href="#discussion">Discussion</a>
-                        </li>
-                        <li>
-                            <a href="#post">New Post</a>
                         </li>
 
-                        <li>
+                        <!-- <li>
                             <a><div ng-app="jigglyApp" ng-controller="loginController">
                                    User Name:
                                    <input type="text" ng-model="username">
@@ -85,8 +81,12 @@
                                 <input type="button" value="log in" ng-click="alert('g');"/>
                                 </div>
                             </a>
-                        </li>
+                        </li> -->
                     </ul>
+                                        <a href="#post" style="color:white; float:right; "><button class="btn btn-default" style="vertical-align: center; margin-top: 8px;">New Post</button></a>
+
+                    <a href="#"><p style="color: white; float: right; text-decoration: underline;  padding-right: 10px; margin-top: 20px;">log out</p><a/>
+                    <p style="color: white; float:right; margin-top: 20px;  padding-right: 10px;"> Gal Tashma</p>
                 </div>
                 <!-- /.navbar-collapse -->
             </div>

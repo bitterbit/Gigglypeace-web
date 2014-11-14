@@ -15,6 +15,7 @@ angular.module('jigglyApp').controller('discussionController', function($scope) 
 		sideBCount:4,
 		neutralCount:4
 	}
+
 	$scope.comments = 
 	[
 		{
@@ -23,27 +24,39 @@ angular.module('jigglyApp').controller('discussionController', function($scope) 
 			publisher: 'Eitan',
 			origin_lang:'ru' ,
 			width: '4',
+			color: 'brown'
 		},
 		{
 			title :'What the hell', 
 			description : 'Who russia thinks she is',	
 			publisher: 'Eitan',
 			origin_lang:'he' ,
-			width: '8',
+			width: '4',
+			color: 'red'
 		},
 		{
 			title :'I wonder what is the real reason russia does this insane action', 
 			description : 'Probably fuel',	
 			publisher: 'Matan',
 			origin_lang:'en' ,
-			width: '6',
+			width: '4',
+			color: 'brown'
 		},
 		{
 			title :'Any body thinks USA will make a presence there also?', 
 			description : 'I think the answer is ngative',	
 			publisher: 'Gilad',
 			origin_lang:'du' ,
-			width: '6',
+			width: '4',
+			color: 'green'
+		},
+		{
+			title :'Any body thinks USA will make a presence there also?', 
+			description : 'I think the answer is ngative',	
+			publisher: 'Gilad',
+			origin_lang:'du' ,
+			width: '4',
+			color: 'brown'
 		}
 	];
 });

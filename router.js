@@ -9,7 +9,7 @@ jigglyApp.config(function($routeProvider) {
 			templateUrl : 'templates/home.html',
 			controller  : 'homeController'
 		})
-		.when('/discussion', {
+		.when('/discussion/:id?', {
 			templateUrl : 'templates/discussion.html',
 			controller  : 'discussionController'
 		})

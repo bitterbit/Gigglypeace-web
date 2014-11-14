@@ -1,8 +1,6 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12" >               
-            <h1>Discussions</h1>
-
                 <div class="thumbnail" style="padding: 20px;">
                     <!-- <img data-ng-src="{{disc.image_link}}" alt=""> -->
                         <h4>{{article.title}}</h4>
@@ -10,10 +8,10 @@
                     </div>
         </div>
     </div>
-    <div class="row">
+    <div class="row" >
         <div ng-repeat="comment in comments">
             <div class="col-md-{{comment.width}}">  
-                <div class="thumbnail">
+                <div class="thumbnail" style="border-bottom: 5px solid {{comment.color}};">
                     <div class="caption">
                         <h4>{{comment.title}}</h4>
                         <p>{{comment.description}}</p>
