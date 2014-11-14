@@ -1,15 +1,12 @@
 <div class="container">
-
-    <h1>Home Page</h1>
-
     <div class="row">
         <div class="col-md-12" >               
             <div class="row" >
                 <div class="col-sm-4 col-lg-4 col-md-4" ng-repeat="disc in discussions">
                     <div class="thumbnail">
-                        <img src="disc." alt="">
+                        <!-- <img data-ng-src="{{disc.image_link}}" alt=""> -->
                         <div class="caption">
-                            <h4 class="pull-right">$24.99</h4>
+                            <h4 class="pull-right">{{disc.sideACount*100.0/(disc.sideACount+disc.sideBCount)}}%</h4>
                             <h4><a href="#">{{disc.title}}</a>
                             </h4>
                             <p>{{disc.description}}</p>
@@ -25,4 +22,5 @@
             </div>
         </div>
     </div>
+     <button type="button">More discussions!</button> 
 </div>
