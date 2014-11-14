@@ -1,21 +1,23 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12" >               
-            <div class="row" >
-                <div class="col-sm-4 col-lg-4 col-md-4" ng-repeat="disc in discussions">
-                    <div class="thumbnail">
-                        <!-- <img data-ng-src="{{disc.image_link}}" alt=""> -->
-                        <div class="caption">
-                            <h4 class="pull-right">{{disc.sideACount*100.0/(disc.sideACount+disc.sideBCount)}}%</h4>
-                            <h4><a href="#">{{disc.title}}</a>
-                            </h4>
-                            <p>{{disc.description}}</p>
-                        </div>
-                        <div class="ratings">
-                            <p class="pull-right"></p>
-                            <p>
-                                {{disc.publisher}}
-                            </p>
+            <div class="row">
+                <div ng-repeat="disc in discussions">
+                    <div class="col-md-{{disc.width}}" >
+                        <div class="thumbnail">
+                            <!-- <img data-ng-src="{{disc.image_link}}" alt=""> -->
+                            <div class="caption">
+                                <h4 class="pull-right">{{disc.sideACount*100.0/(disc.sideACount+disc.sideBCount)}}%</h4>
+                                <h4><a href="#">{{disc.title}}</a>
+                                </h4>
+                                <p>{{disc.description}}</p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right"></p>
+                                <p>
+                                    {{disc.publisher}}
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
