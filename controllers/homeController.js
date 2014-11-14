@@ -4,15 +4,11 @@ angular.module('jigglyApp').controller('homeController', function($scope) {
 
 	$scope.discussions = [
 			
-			{title :'Tel Aviv', firstComment : 'Everybody hates it.',	author: 'Gal Bolbol Katan'},
-			{title :'Tel Aviv', firstComment : 'Everybody hates it.',	author: 'Gal Bolbol Katan'},
-			{title :'Tel Aviv', firstComment : 'Everybody hates it.',	author: 'Gal Bolbol Katan'},
-			{title :'Tel Aviv', firstComment : 'Everybody hates it.',	author: 'Gal Bolbol Katan'},
-			{title :'Tel Aviv', firstComment : 'Everybody hates it.',	author: 'Gal Bolbol Katan'},
-			{title :'Tel Aviv', firstComment : 'Everybody hates it.',	author: 'Gal Bolbol Katan'},
-			{title :'Tel Aviv', firstComment : 'Everybody hates it.',	author: 'Gal Bolbol Katan'},
-			{title :'Tel Aviv', firstComment : 'Everybody hates it.',	author: 'Gal Bolbol Katan'},
-			{title :'Tel Aviv', firstComment : 'Everybody hates it.',	author: 'Gal Bolbol Katan'},
+			$scope.discussions = [
+			{title :'woho', description : 'I like Jigglipeace',	publisher: 'Eitan Bolbol Gadol',
+			origin-lang:'he',number-of-views:50,
+			image-link:'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSMStbAt9oDDMHa2gXldmXHZUsagTS8YHavp09NxEP-jUIIku1gZQ',
+			sideA :'side a',sideB:'side b'sideACount:50,sideBCount:40,neutralCount:30},
 		];
 
 		$http.get('/someurl').success
