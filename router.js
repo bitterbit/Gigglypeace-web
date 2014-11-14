@@ -1,11 +1,8 @@
-// create the module and name it jigglyApp
+
 var jigglyApp = angular.module('jigglyApp', ['ngRoute', 'textAngular']);
 
 // configure our routes
-jigglyApp.config(function($routeProvider) {
-
-	console.log("in router");
-	
+jigglyApp.config(function($routeProvider) {	
 	$routeProvider
 		// route for the home page
 		.when('/', {
