@@ -10,11 +10,11 @@
 
              <div class="row" >
               <div class="col-md-8" >
-                <input type="text" class="form-control" placeholder="Enter article URL">
+                <input ng-model="url" type="text" class="form-control" placeholder="Enter article URL">
               </div>
               
               <div class="col-md-4" >
-                <button type="button" class="btn btn-success">Submit</button>
+                <a href="#post2/{{url}}"><button type="button" class="btn btn-success">Submit</button></a>
                 <a href="#post2" ><button type="button" class="btn btn-default">Skip</button></a>
               </div>
              </div>

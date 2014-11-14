@@ -17,7 +17,11 @@ jigglyApp.config(function($routeProvider) {
 			templateUrl : 'templates/postOne.html',
 			controller  : 'postOneController'
 		})
-		.when('/post2/:url', {
+		.when('/post2', {
+			templateUrl : 'templates/postTwo.html',
+			controller  : 'postTwoController'
+		})
+		.when('/post2/:url*', {
 			templateUrl : 'templates/postTwo.html',
 			controller  : 'postTwoController'
 		})
