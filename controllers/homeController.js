@@ -17,6 +17,7 @@
 	angular.module('jigglyApp').controller('homeController', function($scope) {
 	 // create a message to display in our view
 	
+
 	 $scope.discussions = [
 	{title :'woho', description : 'I like Jigglipeace',	publisher: 'Eitan Bolbol Gadol',
 	 			origin_lang:'he' ,number_of_views:50,
@@ -25,4 +26,3 @@
 	 
 	 ];
 	});
-	
