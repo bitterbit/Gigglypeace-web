@@ -18,15 +18,15 @@ angular.module('jigglyApp').controller('discussionController', function($scope) 
 	$scope.comments = 
 	[
 		{
-			title :'woho', 
-			description : 'I like Jigglipeace',	
-			publisher: 'Eitan Bolbol Gadol',
-			origin_lang:'he' ,
+			title :'Agree', 
+			description : 'would bednifit Russia',	
+			publisher: 'Eitan',
+			origin_lang:'ru' ,
 			width: '4',
 		},
 		{
-			title :'woho', 
-			description : 'I like Jigglipeace',	
+			title :'What the hell', 
+			description : 'Who russia thinks she is',	
 			publisher: 'Eitan Bolbol Gadol',
 			origin_lang:'he' ,
 			width: '8',
