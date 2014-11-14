@@ -1,0 +1,43 @@
+<div class="container">
+
+  <div class="row">
+        <div class="col-md-12" >  
+            <div class="row" style="margin-top:10%;" >
+              <div class="col-md-8" >
+                <h1>New Post</h1>
+              </div>
+            </div>
+
+             <div class="row" >
+              <div class="col-md-8" >
+                <input type="text" class="form-control" placeholder="Enter article URL">
+              </div>
+              
+              <div class="col-md-4" >
+                <button type="button" class="btn btn-success">Submit</button>
+                <a href="#post2" ><button type="button" class="btn btn-default">Skip</button></a>
+              </div>
+             </div>
+
+              <div class="row" style="visibility: hidden;" >                
+                    <div ng-app="jigglyApp" ng-controller="wysiwygeditor" >
+              
+                      <div class="col-md-5" >
+                        <h1>Editor</h1>
+                        <div text-angular="text-angular" name="htmlcontent" ng-model="htmlcontent" ta-disabled='disabled'></div>
+                      </div>
+
+                      <div class="col-md-5" >
+                        <h1>Bound with ng-bind-html</h1>
+
+                        <button type="button" ng-click="htmlcontent = orightml">Reset</button>
+
+                        <div ng-bind-html="htmlcontent" style="padding-top: 85px; word-wrap: break-word; width: 95%;"></div>
+                      </div>
+
+                    </div>
+              </div>
+        </div>
+  </div>
+
+</div>

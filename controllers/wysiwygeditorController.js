@@ -7,5 +7,4 @@ angular.module('jigglyApp').controller('wysiwygeditor', function($scope) {
       ////
       // Masquerade perfers the scope value over the innerHTML
       // Uncomment this line to see the effect:
-      $scope.htmlcontenttwo = "Override originalContents";
 });
